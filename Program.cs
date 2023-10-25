@@ -1,12 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 using TodoApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// var cors = require("cors");
 
-// Add services
 builder.Services.AddDbContext<ToDoDbContext>(options =>
 {
     options.UseMySql("name=ToDoDB", Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.34-mysql")); // Replace with your MySQL connection string
@@ -14,10 +11,6 @@ builder.Services.AddDbContext<ToDoDbContext>(options =>
 
 var app = builder.Build();
 
-// app.Use(cors({
-//     origin : "http://localhost:5019",
-// })
-// )
 
 // Retrieving all items
 app.MapGet("/items", async (ToDoDbContext dbContext) =>
