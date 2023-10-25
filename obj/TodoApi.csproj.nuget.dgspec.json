@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\הרשו\\מיכל תכנות יד\\תרגול לאחר הלימודים\\קורס פרקטיקוד\\Experience 4 - אפליקציית ToDoList עם Minimal API\\TodoApi\\TodoApi.csproj": {}
+  },
+  "projects": {
+    "D:\\הרשו\\מיכל תכנות יד\\תרגול לאחר הלימודים\\קורס פרקטיקוד\\Experience 4 - אפליקציית ToDoList עם Minimal API\\TodoApi\\TodoApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\הרשו\\מיכל תכנות יד\\תרגול לאחר הלימודים\\קורס פרקטיקוד\\Experience 4 - אפליקציית ToDoList עם Minimal API\\TodoApi\\TodoApi.csproj",
+        "projectName": "TodoApi",
+        "projectPath": "D:\\הרשו\\מיכל תכנות יד\\תרגול לאחר הלימודים\\קורס פרקטיקוד\\Experience 4 - אפליקציית ToDoList עם Minimal API\\TodoApi\\TodoApi.csproj",
+        "packagesPath": "C:\\Users\\הרשו\\.nuget\\packages\\",
+        "outputPath": "D:\\הרשו\\מיכל תכנות יד\\תרגול לאחר הלימודים\\קורס פרקטיקוד\\Experience 4 - אפליקציית ToDoList עם Minimal API\\TodoApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\הרשו\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Frame.Cors": {
+              "target": "Package",
+              "version": "[0.2.1, )"
+            },
+            "Microsoft.AspNet.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.3.0-preview1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "PACKAGE_NAME": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
